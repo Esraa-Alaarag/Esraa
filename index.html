@@ -18,6 +18,9 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/style_common.css" />
+        <link rel="stylesheet" type="text/css" href="css/style1.css" />
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -31,6 +34,15 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .service-box ul li {
+            text-align: left;
+            line-height: 50px;
+        }
+        .bg-dark {
+            text-align: center;
+        }
+    </style>
 
 </head>
 
@@ -109,10 +121,12 @@
                     <div class="service-box">
                         <i style="color: tomato" class="fa fa-4x fa-graduation-cap sr-icons"></i>
                         <h3>Education</h3>
-                            <ul class="text-muted">
-                                <li>B.Sc. in Computer Engineering from University of Sharjah</br> Sharjah UAE</li>
-                                <li>Web Development Immersive bootcamp in General Assembly</br> New York USA</li>
-                                <li>Microsoft Certified System Engineer</br>Doha Qatar</li>
+                            <ul  class="text-muted">
+                                <li >B.Sc. in Computer Engineering from University of Sharjah / Sharjah UAE
+                                </li>
+                                <li>Web Development Immersive bootcamp in General Assembly / New York USA</li>
+                                
+                                <li>Microsoft Certified System Engineer / Doha Qatar</li>
                             </ul>
                     </div>
                 </div>
@@ -122,10 +136,11 @@
                         <h3>Experience</h3>
                         <p class="text-muted">
                             <ul class="text-muted">
-                                    <li>E-learning Coordinator and IT trainer </br> Doha Qatar</li>
-                                    <li>Website Designer and Technical Support</br> Norway</li>
-                                    <li>Network Administrator</br> Doha Qatar</li>
-                                    <li>IT teacher for high and elementary students</br> Doha Qatar</li>
+                                    <li>Web Development Immersive | Engineering Fellow / NYC, New York </li>
+                                    <li>E-learning Coordinator and IT trainer /Doha Qatar</li>
+                                    <li>Website Designer and Technical Support/ Norway</li>
+                                    <li>Network Administrator /  Doha Qatar</li>
+                                    <li>IT teacher for high and elementary students/ Doha Qatar</li>
                             </ul>
                         </p>
                     </div>
@@ -133,112 +148,43 @@
             </div>
         </div>
     </section>
-
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
+            <div class="row no-gutter bg-dark">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/111.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/111.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    MineSweeper        
-                                </div>
-                                <div class="project-name">
-                                    Javascript, JQuery
-                                </div>
-                            </div>
+                    <div class="view view-first">
+                        <img src="img/portfolio/thumbnails/111.jpg" />
+                        <div class="mask">
+                            <h2>Mine Sweeper</h2>
+                            <p> Javascript, JQuery</p>
+                            <a href="https://esraa-alaarag.github.io/minesweeper/" class="info">Live Demo!</a>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/222.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/222.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Embassy of Zootopia
-                                </div>
-                                <div class="project-name">
-                                    Node.js , Express , Axios , pg-promise, API, Cors
-                                </div>
-                            </div>
+                    <div class="view view-first">
+                        <img src="img/portfolio/thumbnails/222.jpg" />
+                        <div class="mask">
+                            <h2>Embassy of Zootopia</h2>
+                            <p> Node.js , Express , Axios , pg-promise, API, Cors.</p>
+                            <a href="https://young-badlands-16070.herokuapp.com" class="info">Live Demo</a>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/333.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/333.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Can I eat this?
-                                </div>
-                                <div class="project-name">
-                                    React , Ajax , API, Axios
-                                </div>
-                            </div>
+                    <div class="view view-first">
+                        <img src="img/portfolio/thumbnails/333.png" />
+                        <div class="mask">
+                            <h2>Buzzy</h2>
+                            <p>express , Ajax , API, google ,Postgresql pg-promise , Geolocation , Sweetalert, materialize , Google map Geocoding API, Ticket Master API.</p>
+                            <a href="https://buzzy-nyc.herokuapp.com/" class="info">Live Demo</a>
                         </div>
-                    </a>
+                    </div>
                 </div>
-<!--                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div> -->
             </div>
         </div>
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <!-- <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a> -->
-            </div>
-        </div>
-    </aside>
 
     <section id="contact">
         <div class="container">
@@ -277,7 +223,6 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
